@@ -1,4 +1,4 @@
-if SHIELD_DACTYL_CC_LEFT
+if SHIELD_KHONSU
 
     config ZMK_KEYBOARD_NAME
         default "Dactyl CC"
@@ -14,7 +14,7 @@ if SHIELD_DACTYL_CC_RIGHT
 
 endif
 
-if SHIELD_DACTYL_CC_LEFT || SHIELD_DACTYL_CC_RIGHT
+if SHIELD_KHONSU || SHIELD_DACTYL_CC_RIGHT
 
     config ZMK_SPLIT
         default y
